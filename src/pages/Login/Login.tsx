@@ -34,7 +34,6 @@ const Login: React.FC = () => {
         handleSubmit,
         register,
         formState: {
-            errors,
             isValid
         },
         reset

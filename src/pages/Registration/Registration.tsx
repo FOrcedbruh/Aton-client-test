@@ -36,7 +36,6 @@ const Registration: React.FC = () => {
         handleSubmit,
         register,
         formState: {
-            errors,
             isValid
         },
         reset
