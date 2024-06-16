@@ -1,0 +1,55 @@
+.window {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fff;
+}
+
+h5 {
+    color: #fff;
+}
+h5 a {
+    color: #6464ff;
+    text-decoration: none;
+}
+
+
+.window form {
+    width: 30%;
+    height: fit-content;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.window form .input {
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid #636363;
+    border-radius: 14px;
+    font-size: 15px;
+    letter-spacing: 0.08rem;
+    transition: all .3s ease;
+}
+.window form .input:focus {
+    border: 2px solid #6464ff;
+}
+
+input.submitBtn {
+    border-radius: 12px;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 200px;
+}
+
